@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class Kata5 {
 
     public static void main(String[] args) {
-        CrearTabla.createNewTable();
+        InsertarDatosEnTabla.insert("carvsk@gmail.com");
     }
     
 

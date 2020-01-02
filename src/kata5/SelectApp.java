@@ -14,7 +14,6 @@ public class SelectApp {
         try {
             con = DriverManager.getConnection(url);
         } catch (SQLException e) {
-            System.out.println("eyyy");
             System.out.println(e.getMessage());
         }
         return con;
