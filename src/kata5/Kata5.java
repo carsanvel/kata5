@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Kata5 {
 
     public static void main(String[] args) {
-        SelectApp selApp = new SelectApp();
-        selApp.selectAll();
+        CrearTabla.createNewTable();
     }
+    
 
     
 }
